@@ -111,7 +111,7 @@ End Sub
 
 Sub Help()
     WScript.Echo "check_volfree - Nagios NRPE plugin for windows, ver. " & VERSION
-    WScript.Echo "Copyright (C) 2015, Jayan Menon <jmoolayil@gmail.com>"
+    WScript.Echo "Copyright (C) 2015, Jayan Menon, Komodo Cloud LLC"
     WScript.Echo ""
     Call Usage()
     WScript.Echo ""
@@ -127,7 +127,8 @@ Sub Help()
     WScript.Echo "   "  & Wscript.ScriptName & " -l SQLDATA -w 75 -c 85"
     WScript.Echo ""
     WScript.Echo "   Check the utilization of the volume named SQLDATA "
-	  Wscript.Echo "   return WARNING if utilization is over 75% "
-	  Wscript.Echo "   return CRITICAL if above 85%"
+    Wscript.Echo "   return WARNING if utilization is over 75% "
+    Wscript.Echo "   return CRITICAL if above 85%"
+    WScript.Echo ""
 	  
 End Sub
