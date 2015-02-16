@@ -1,7 +1,7 @@
 '===============================================================================
 ' Name    : check_volfree.vbs
 ' Usage   : cscript.exe //NoLogo //T:10 check_volfree.vbs -n volume -w <warn> -c <crit> | -h
-' Author  : Jayan Menon <jmoolayil@gmail.com>
+' Author  : Jayan Menon, Komodo Cloud LLC (www.komodocloud.com)
 ' Version : 2015.02.15
 
 ' Description: Calculates space utilization of a Windows disk that does 
@@ -10,7 +10,7 @@
 ' - This script is supplied as-is without any support.
 ' - You free to modify/distribute this script as you wish, but you must have the
 '   following line in the script:
-'   Original author Jayan Menon <jmoolayil@gmail.com>
+'   Original author Jayan Menon, Komodo Cloud LLC (www.komodocloud.com)
 '
 '===============================================================================
 Option Explicit
