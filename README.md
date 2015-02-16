@@ -8,9 +8,13 @@ Usage: check_volfree.vbs -l label -w <warn> -c <crit> | -h
 
 Command-line options:
    -l, --label <label>  : Disk volume label
+   
    -w, --warn <warn>    : set WARNING state
+   
    -c, --crit <crit>    : set CRITICAL state
+   
    -h, --help           : print this help message
+   
    
 
 Example:
