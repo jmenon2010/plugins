@@ -110,7 +110,7 @@ Sub Usage()
 End Sub
 
 Sub Help()
-    WScript.Echo "Check_Files - Nagios NRPE plugin for windows, ver. " & VERSION
+    WScript.Echo "check_volfree - Nagios NRPE plugin for windows, ver. " & VERSION
     WScript.Echo "Copyright (C) 2015, Jayan Menon <jmoolayil@gmail.com>"
     WScript.Echo ""
     Call Usage()
