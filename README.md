@@ -16,5 +16,7 @@ Example:
    check_volfree.vbs -l SQLDATA -w 75 -c 85
 
    Check the utilization of the volume named SQLDATA;
+   
    return WARNING if utilization is over 75%;
+   
    return CRITICAL if above 85%
